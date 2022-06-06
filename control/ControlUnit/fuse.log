@@ -1,0 +1,27 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/control/ControlUnit/system_tb_isim_beh.exe -prj C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/control/ControlUnit/system_tb_beh.prj work.system_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/control/ControlUnit/ControlUnit.v" into library work
+WARNING:HDLCompiler:751 - "../register/register.v" Line 30: Redeclaration of ansi port qout is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/control/ControlUnit/ControlUnit.v" Line 123: Redeclaration of ansi port dout_p is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/control/ControlUnit/ControlUnit.v" Line 124: Redeclaration of ansi port dout_q is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/control/ControlUnit/ControlUnit.v" Line 157: Redeclaration of ansi port en_p is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/control/ControlUnit/ControlUnit.v" Line 158: Redeclaration of ansi port dout is not allowed
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/control/ControlUnit/ControlUnit.v" Line 128: Size mismatch in connection of port <rst>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/control/ControlUnit/ControlUnit.v" Line 127: Size mismatch in connection of port <rst>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module controller
+Compiling module register
+Compiling module ControlUnit
+Compiling module system_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 Verilog Units
+Built simulation executable C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/control/ControlUnit/system_tb_isim_beh.exe
+Fuse Memory Usage: 29224 KB
+Fuse CPU Usage: 608 ms

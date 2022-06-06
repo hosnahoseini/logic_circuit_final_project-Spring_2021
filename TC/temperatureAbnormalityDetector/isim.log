@@ -1,0 +1,16 @@
+ISim log file
+Running: C:\Users\RAI\Desktop\university\term4\Lab DC\FinalProject\TC\temperatureAbnormalityDetector\TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/TC/temperatureAbnormalityDetector/TB_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance AD1/AD0/, width 1 of formal port ci is not equal to width 32 of actual constant.
+WARNING:  For instance MUL/AD1/, width 4 of formal port B is not equal to width 35 of actual constant.
+WARNING:  For instance AD2/AD0/, width 1 of formal port ci is not equal to width 32 of actual constant.
+WARNING:  For instance AD3/AD0/, width 1 of formal port ci is not equal to width 32 of actual constant.
+WARNING: For instance MUL/AD3/, width 5 of formal port S is not equal to width 6 of actual.
+WARNING:  For instance AD8B/AD0/, width 1 of formal port ci is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

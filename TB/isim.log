@@ -1,0 +1,23 @@
+ISim log file
+Running: C:\Users\RAI\Desktop\university\term4\Lab DC\FinalProject\TB\TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/TB/TB_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance AD1/AD0/, width 1 of formal port ci is not equal to width 32 of actual constant.
+WARNING:  For instance MUL/AD1/, width 4 of formal port B is not equal to width 35 of actual constant.
+WARNING:  For instance AD2/AD0/, width 1 of formal port ci is not equal to width 32 of actual constant.
+WARNING:  For instance AD3/AD0/, width 1 of formal port ci is not equal to width 32 of actual constant.
+WARNING: For instance MUL/AD3/, width 5 of formal port S is not equal to width 6 of actual.
+WARNING:  For instance AD8B/AD0/, width 1 of formal port ci is not equal to width 32 of actual constant.
+WARNING:  For instance FAD/CMP/, width 1 of formal port l is not equal to width 32 of actual constant.
+WARNING:  For instance FAD/CMP/, width 1 of formal port e is not equal to width 32 of actual constant.
+WARNING:  For instance FAD/CMP/, width 1 of formal port g is not equal to width 32 of actual constant.
+WARNING:  For instance BTC/MUL/, width 4 of formal port w is not equal to width 128 of actual constant.
+WARNING: File "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/PH/bloodTypeClassification/bloodTypeClassification.v" Line 26.  For instance BTC/MUL/, width 4 of formal port y is not equal to width 1 of actual signal bloodClass.
+WARNING:  For instance BPHA/DEC/, width 1 of formal port en is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 270 ns : File "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/TB/TB.v" Line 117

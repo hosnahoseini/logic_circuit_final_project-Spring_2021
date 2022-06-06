@@ -1,0 +1,30 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/TC/temperatureAbnormalityDetector/TB_isim_beh.exe -prj C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/TC/temperatureAbnormalityDetector/TB_beh.prj work.TB work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/TC/temperatureAbnormalityDetector/temperatureAbnormalityDetector.v" into library work
+Analyzing Verilog file "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/TC/temperatureAbnormalityDetector/TB.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:327 - "../temperatureCalculator/temperatureCalculator.v" Line 50: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:189 - "../temperatureCalculator/temperatureCalculator.v" Line 52: Size mismatch in connection of port <S>. Formal port size is 5-bit while actual signal size is 6-bit.
+WARNING:HDLCompiler:189 - "../temperatureCalculator/temperatureCalculator.v" Line 50: Size mismatch in connection of port <B>. Formal port size is 4-bit while actual signal size is 35-bit.
+WARNING:HDLCompiler:189 - "../temperatureCalculator/temperatureCalculator.v" Line 64: Size mismatch in connection of port <ci>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "../temperatureCalculator/temperatureCalculator.v" Line 83: Size mismatch in connection of port <ci>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module full_adder
+Compiling module adder_4bit
+Compiling module multiplier4x4
+Compiling module adder_8bit
+Compiling module temperatureCalculator
+Compiling module temperatureAnalyzer
+Compiling module temperatureAbnormalityDetector
+Compiling module TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 9 Verilog Units
+Built simulation executable C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/TC/temperatureAbnormalityDetector/TB_isim_beh.exe
+Fuse Memory Usage: 29452 KB
+Fuse CPU Usage: 609 ms

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/control/ControlUnit/ControlUnit.xst" -ofn "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/control/ControlUnit/ControlUnit.syr" 

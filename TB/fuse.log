@@ -1,0 +1,49 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/TB/TB_isim_beh.exe -prj C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/TB/TB_beh.prj work.TB work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/TB/TB.v" into library work
+WARNING:HDLCompiler:327 - "../FD/fallingDetector/fallingDetector.v" Line 51: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "../FD/fallingDetector/fallingDetector.v" Line 52: Concatenation with unsized literal; will interpret as 32 bits
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:327 - "../TC/temperatureAbnormalityDetector/../temperatureCalculator/temperatureCalculator.v" Line 49: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:189 - "../TC/temperatureAbnormalityDetector/../temperatureCalculator/temperatureCalculator.v" Line 51: Size mismatch in connection of port <S>. Formal port size is 5-bit while actual signal size is 6-bit.
+WARNING:HDLCompiler:189 - "../TC/temperatureAbnormalityDetector/../temperatureCalculator/temperatureCalculator.v" Line 49: Size mismatch in connection of port <B>. Formal port size is 4-bit while actual signal size is 35-bit.
+WARNING:HDLCompiler:189 - "../TC/temperatureAbnormalityDetector/../temperatureCalculator/temperatureCalculator.v" Line 63: Size mismatch in connection of port <ci>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "../TC/temperatureAbnormalityDetector/../temperatureCalculator/temperatureCalculator.v" Line 82: Size mismatch in connection of port <ci>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "../FD/fallingDetector/fallingDetector.v" Line 30: Size mismatch in connection of port <l>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:327 - "../PH/bloodAbnormalityDetector/../bloodTypeClassification/bloodTypeClassification.v" Line 27: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:189 - "../PH/bloodAbnormalityDetector/../bloodTypeClassification/bloodTypeClassification.v" Line 27: Size mismatch in connection of port <w>. Formal port size is 4-bit while actual signal size is 128-bit.
+WARNING:HDLCompiler:189 - "../PH/bloodAbnormalityDetector/../bloodPHAnalyzer/bloodPHAnalyzer.v" Line 31: Size mismatch in connection of port <en>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module parityErrorChecker
+Compiling module pressureAnalyzer
+Compiling module pressureAbnormalityDetector
+Compiling module full_adder
+Compiling module adder_4bit
+Compiling module multiplier4x4
+Compiling module adder_8bit
+Compiling module temperatureCalculator
+Compiling module temperatureAnalyzer
+Compiling module temperatureAbnormalityDetector
+Compiling module comparator3
+Compiling module comparator8
+Compiling module fallingDetector
+Compiling module multiplexer4x1
+Compiling module bloodTypeClassification
+Compiling module decoder2x4
+Compiling module decoder4x16
+Compiling module bloodPHAnalyzer
+Compiling module mux2x1
+Compiling module bloodAbnormalityDetector
+Compiling module HealthcareSystemPhase1
+Compiling module TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 16 sub-compilation(s) to finish...
+Compiled 23 Verilog Units
+Built simulation executable C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/TB/TB_isim_beh.exe
+Fuse Memory Usage: 29808 KB
+Fuse CPU Usage: 953 ms

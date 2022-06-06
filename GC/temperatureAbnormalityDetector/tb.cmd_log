@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/GC/temperatureAbnormalityDetector/tb.xst" -ofn "C:/Users/RAI/Desktop/university/term4/Lab DC/FinalProject/GC/temperatureAbnormalityDetector/tb.syr" 

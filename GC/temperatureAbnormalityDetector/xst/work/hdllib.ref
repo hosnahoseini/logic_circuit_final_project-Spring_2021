@@ -1,0 +1,5 @@
+MO countingOnes NULL temperatureAbnormalityDetector.v vlg54/counting_ones.bin 1627030729
+MO tb NULL temperatureAbnormalityDetector.v vlg26/tb.bin 1627030729
+MO temperatureAbnormalityDetector NULL temperatureAbnormalityDetector.v vlg5E/temperature_abnormality_detector.bin 1627030729
+MO absoluteCalculator NULL temperatureAbnormalityDetector.v vlg01/absolute_calculator.bin 1627030729
+MO multiplexer8bit2x1 NULL temperatureAbnormalityDetector.v vlg7D/multiplexer8bit2x1.bin 1627030729

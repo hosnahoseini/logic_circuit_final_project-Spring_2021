@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="HealthcareSystemPhase1.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1627032643" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1627032643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1627032652" xil_pn:in_ck="-4096408130384855472" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1627032652">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../../FD/fallingDetector/fallingDetector.v"/>
+      <outfile xil_pn:name="../../PH/bloodAbnormalityDetector/bloodAbnormalityDetector.v"/>
+      <outfile xil_pn:name="../../PH/bloodPHAnalyzer/bloodPHAnalyzer.v"/>
+      <outfile xil_pn:name="../../PH/bloodTypeClassification/bloodTypeClassification.v"/>
+      <outfile xil_pn:name="../../TC/temperatureAbnormalityDetector/temperatureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="../../TC/temperatureAnalyzer/temperatureAnalyzer.v"/>
+      <outfile xil_pn:name="../../TC/temperatureCalculator/temperatureCalculator.v"/>
+      <outfile xil_pn:name="../../pressure/parityErrorChecker/parityErrorChecker.v"/>
+      <outfile xil_pn:name="../../pressure/pressureAbnormalityDetector/pressureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="../../pressure/pressureAnalyzer/pressureAnalyzer.v"/>
+      <outfile xil_pn:name="HealthcareSystemPhase1.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1627032643" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3587134316212297897" xil_pn:start_ts="1627032643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1627032643" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7477417391082050289" xil_pn:start_ts="1627032643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1627032643" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6140891893226506266" xil_pn:start_ts="1627032643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1627032652" xil_pn:in_ck="-4096408130384855472" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1627032652">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../../FD/fallingDetector/fallingDetector.v"/>
+      <outfile xil_pn:name="../../PH/bloodAbnormalityDetector/bloodAbnormalityDetector.v"/>
+      <outfile xil_pn:name="../../PH/bloodPHAnalyzer/bloodPHAnalyzer.v"/>
+      <outfile xil_pn:name="../../PH/bloodTypeClassification/bloodTypeClassification.v"/>
+      <outfile xil_pn:name="../../TC/temperatureAbnormalityDetector/temperatureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="../../TC/temperatureAnalyzer/temperatureAnalyzer.v"/>
+      <outfile xil_pn:name="../../TC/temperatureCalculator/temperatureCalculator.v"/>
+      <outfile xil_pn:name="../../pressure/parityErrorChecker/parityErrorChecker.v"/>
+      <outfile xil_pn:name="../../pressure/pressureAbnormalityDetector/pressureAbnormalityDetector.v"/>
+      <outfile xil_pn:name="../../pressure/pressureAnalyzer/pressureAnalyzer.v"/>
+      <outfile xil_pn:name="HealthcareSystemPhase1.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1627032652" xil_pn:in_ck="-4096408130384855472" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1579559530466557834" xil_pn:start_ts="1627032652">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

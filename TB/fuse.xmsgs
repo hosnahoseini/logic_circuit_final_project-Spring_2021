@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"../FD/fallingDetector/fallingDetector.v" Line 51: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"../FD/fallingDetector/fallingDetector.v" Line 52: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"../TC/temperatureAbnormalityDetector/../temperatureCalculator/temperatureCalculator.v" Line 49: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"../TC/temperatureAbnormalityDetector/../temperatureCalculator/temperatureCalculator.v" Line 51: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">S</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"../TC/temperatureAbnormalityDetector/../temperatureCalculator/temperatureCalculator.v" Line 49: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">B</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">35</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"../TC/temperatureAbnormalityDetector/../temperatureCalculator/temperatureCalculator.v" Line 63: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ci</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"../TC/temperatureAbnormalityDetector/../temperatureCalculator/temperatureCalculator.v" Line 82: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ci</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"../FD/fallingDetector/fallingDetector.v" Line 30: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">l</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"../PH/bloodAbnormalityDetector/../bloodTypeClassification/bloodTypeClassification.v" Line 27: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"../PH/bloodAbnormalityDetector/../bloodTypeClassification/bloodTypeClassification.v" Line 27: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">w</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">128</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"../PH/bloodAbnormalityDetector/../bloodPHAnalyzer/bloodPHAnalyzer.v" Line 31: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">en</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+</messages>
+
